@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* section */
+header{
+    background-color: #48C5CE;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: 26px;
+}
+
+/* section */
+
+section{
+    
+    background-image: url("../images/people.jpg");
+    overflow: auto;
+    background-size: cover;
+    padding: 20px;
+    display: block;
+
+}
+
+div.formcontainer{
+    width: 230px;
+    background-color: #FFFFFFBB;
+    float: right;
+    padding: 20px;
+}
+
+div h2 {
+    font-size: 16px;
+}
+
+div .mb{
+    margin-bottom: 15px;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color:#48C5CE;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* a parte do select que eu n sei */
+
+
+
+
+/* footer */
+
+footer{
+    padding: 40px;
+    background-color: #202121;
+    text-align: center;
+
+}
+
+.image{
+    width: 160px;
+}
+
+.descricao{
+    margin-left: 40px;
+    max-width: 40%;
+    display: inline-block;
+    color: white;
+    text-align: left;
+}
+
+div.descricao h3 {
+    font-size: 24px;
+}
+
+.descricao h3, .descricao p{
+    margin-bottom: 20px;
+}
